@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.codejava</groupId>
+  <artifactId>ElectroGrid</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <modules>
+  <module>ProfileService</module>
+  <module>ElectricityService</module>
+  <module>PaymentService</module>
+  <module>PowercutSheduleManagementService</module>
+  <module>InquiryService</module>
+  <module>CustomerService</module>
+  </modules>
+</project>
