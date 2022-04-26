@@ -6,7 +6,7 @@
   <packaging>pom</packaging>
   
   <modules>
-  <module>ProfileService</module>
+  
   <module>ElectricityService</module>
   <module>PaymentService</module>
   <module>PowercutSheduleManagementService</module>
