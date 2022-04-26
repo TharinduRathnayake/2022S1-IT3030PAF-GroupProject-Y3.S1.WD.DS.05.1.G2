@@ -59,7 +59,7 @@ public class Payment { // A common method to connect to the DB
 				return "Error while connecting to the database for reading.";
 			}
 			// Prepare the html table to be displayed
-			output = "<table border='1'><tr><th>CustomerID</th><th>Payment Type</th>" + "<th>Amount paid</th>"
+			output = "<table border='2'><tr><th>CustomerID</th><th>Payment Type</th>" + "<th>Amount paid</th>"
 					+ "<th>Update</th><th>Remove</th></tr>";
 
 			String query = "select * from pay";
