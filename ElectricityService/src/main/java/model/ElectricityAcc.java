@@ -185,7 +185,7 @@ public class ElectricityAcc { // A common method to connect to the DB
 //		 "<th>Update</th><th>Remove</th></tr>";
 		 
 
-		 String query = "select * from electricity_account where accNumber='1012455639'";
+		 String query = "select * from electricity_account where accNumber='8865567800'";
 		 
 		 Statement stmt = con.createStatement();
 		 ResultSet rs = stmt.executeQuery(query);
