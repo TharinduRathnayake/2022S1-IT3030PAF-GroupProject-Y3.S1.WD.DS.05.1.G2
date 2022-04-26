@@ -65,7 +65,7 @@ public class UserProfile {
 					return "Error While Connecting to the DataBase for reading";
 				}
 				// Prepare the HTML table to be displayed
-				output = "<br><br><br><br><br><br> <table border='1' align='center'><tr><th>CustomerId</th><th>First Name</th>"+
+				output = "<br><br><br><br><br><br> <table border='2' align='center'><tr><th>CustomerId</th><th>First Name</th>"+
 						"<th>Last Name</th><th>Account Number</th><th>NIC</th>"+
 						"<th>Email</th><th>Phone Number</th>" +
 						"<th>Update</th><th>Remove</th></tr>";
